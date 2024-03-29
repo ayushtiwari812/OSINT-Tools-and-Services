@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>OSINT IN DIGITAL FORENSICS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">OSINT IN DIGITAL FORENSICS</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <!-- <li><a class="nav-link   scrollto" href="#portfolio">Link And Tools</a></li> -->
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down (Tools)</span> <i class="bi bi-chevron-down "></i></a>
+            <ul>
+              <li><a href="passwordTools.html">Password Tools</a></li>
+             
+              <li><a href="systemTools.html">System Tools</a></li>
+              <li><a href="browserTools.html">Browser Tools</a></li>
+              <li><a href="programmerTools.html">Programmer Tools</a></li>
+              <li><a href="networkTools.html">Network Tools</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Drop Down (Courses)</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://www.coursera.org/learn/cyber-security-fundamentals"> <b>Cybersecurity Fundamentals Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Cybersecurity Fundamentals: </span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <p>This course provides an introduction to cybersecurity principles, including security concepts, threats, vulnerabilities,
+                      risk management, and best practices for protecting digital assets.
+                      </p>                                 
+                    </ul>
+                </li>              
+              </li>
+             
+              <li><a href="https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"><b>Ethical Hacking Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Ethical Hacking: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course covers the fundamentals of ethical hacking, including penetration testing methodologies, tools, techniques,
+                    and best practices for identifying and mitigating security vulnerabilities.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+              <li><a href="https://www.coursera.org/learn/network-security"><b>Network Security Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Network Security: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course explores the principles of network security, including encryption, authentication, access control,
+                    firewalls, intrusion detection/prevention systems, and secure network design.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+              <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj67an465iFAxVlo2YCHQHXDfEYABADGgJzbQ&ase=2&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TmUvylsh-CXTPeHBwCRmlUA87fgx1qs3PDYFaHVhZvihoDAzC0Wb3UaAgJDEALw_wcB&ohost=www.google.com&cid=CAESVuD2sWPp5IcAUTw3bU7rFW7QgypAw2PMKKKk5OD2UuONTruGnhA0bZVT6PxcnjOyaIYzkyjQib7Be7XpKxTC3Ub3hWS7luq1-EEdKEcBcJS-mu6zCUgM&sig=AOD64_3n7U1espg8NK9IhoWSeKHzc0tffg&q&nis=4&adurl&ved=2ahUKEwif-aP465iFAxXlQ2cHHZV6BIYQ0Qx6BAgKEAE"><b>Cybersecurity Risk Management Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Cybersecurity Risk Management: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course introduces the principles and techniques of digital forensics, including evidence acquisition, analysis,
+                    preservation, and presentation for investigating cybercrimes and security incidents.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+              <li><a href="https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/"><b>Incident Response and Handling Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Incident Response and Handling: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course provides hands-on training in incident response and handling, including preparation, detection, analysis,
+                    containment, eradication, and recovery from cybersecurity incidents.
+                    </p>
+                  </ul>
+                </li>
+                </li>
+              </li>
+
+              <li><a href="https://www.coursera.org/specializations/secure-coding-practices"><b>Secure Coding Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Secure Coding: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course teaches secure coding practices for developing secure software applications, including principles of secure
+                    design, coding standards, input validation, error handling, and secure development lifecycle (SDLC) practices.
+                    </p>
+                  </ul>
+                </li>
+                </li>
+
+              <li><a href="https://www.coursera.org/learn/web-security"><b>Web Application Security Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Web Application Security: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course covers the fundamentals of web application security, including common vulnerabilities (e.g., SQL injection,
+                    XSS, CSRF), security controls, secure coding practices, and web application penetration testing.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+              <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi329H37JiFAxV_PoMDHbqlD_sYABAAGgJzZg&ase=2&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TmI7VidQ2xBxhWOY6NEUmx8fD1kcqzSG-UMzoEcQUzqb-7GdgcIWu8aAqqfEALw_wcB&ohost=www.google.com&cid=CAESVuD2ATCk1NNwspi3HcBP7V8q8dXh9Wm5pTY5ea8oZvuth2jW2s6hYFFdhLMj0KJSiN87lib64ff_3zFGPwUlaq-PBRE2sefFOcg-85zJ3tPEM32nR8_U&sig=AOD64_2XGz8mA5WwwdF0WJNBNgJbMGzIVw&q&nis=4&adurl&ved=2ahUKEwip7sX37JiFAxWCcWwGHRCCAb4Q0Qx6BAgKEAE"><b>Cloud Security Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Cloud Security: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course explores the principles of cloud security, including cloud computing models, security challenges, best
+                    practices, and techniques for securing cloud environments and services.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+              <li><a href="https://www.giac.org/certification/mobile-device-security-analyst-gmob"><b>Mobile Security Course</b></a>
+                <li class="dropdown"><a href="#"><span>Description of Mobile Application: </span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <p>This course covers the principles of mobile security, including mobile device security, mobile app security, secure
+                    development practices, and techniques for securing mobile platforms and applications.
+                    </p>
+                  </ul>
+                </li>
+              </li>
+
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Insightful Discoveries: OSINT Tools and Techniques for Forensics</h1>
+          <h2>OSINT offers access to publicly available information from various sources, including social media, websites, public
+          records, and more. It provides valuable insights and data that can be utilized for intelligence gathering, research,
+          analysis, and decision-making in various fields such as cybersecurity, law enforcement, business intelligence, and
+          journalism.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=wkc2sPlytFk" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/cellebrite.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/magnetForencis.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/sansInstitute.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/mandiant.jpeg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/blackBag.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/palantir.jpeg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+            We specialize in digital forensics, a crucial discipline within the realm of cybersecurity and investigative science.
+            Digital forensics, also known as computer forensics or cyber forensics, involves the collection, preservation, analysis,
+            and presentation of digital evidence for investigative purposes.
+            <br><br>
+            In today's interconnected world, where much of our daily activities occur online, digital forensics plays a vital role
+            in uncovering evidence related to cybercrimes, data breaches, intellectual property theft, fraud, and various other
+            forms of illicit activities conducted through digital means.
+            <br><br>
+            Our team of expert forensic analysts employs cutting-edge techniques and tools to meticulously examine digital devices,
+            networks, and systems to extract valuable evidence. This evidence can include files, emails, chat logs, metadata,
+            internet history, and more, all of which are crucial in reconstructing events and identifying perpetrators.
+            <br><br><br>
+            Digital forensics encompasses a wide range of sub-disciplines, including:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Computer Forensics: Examining computers, servers, and storage devices to recover evidence such as files, documents, and
+              system artifacts.</li>
+              <li><i class="ri-check-double-line"></i>Mobile Device Forensics: Analyzing smartphones, tablets, and other mobile devices to retrieve data such as call logs,
+              text messages, photos, and application usage.</li>
+              <li><i class="ri-check-double-line"></i> Network Forensics: Monitoring and analyzing network traffic to identify security incidents, intrusions, and unauthorized
+              activities.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+            Our team is dedicated to providing comprehensive digital forensic services to assist law enforcement agencies, legal
+            professionals, corporations, and individuals in uncovering the truth and achieving justice in the digital age.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>Frequently asked questions</h3>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p> -->
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>What is cybersecurity, and why is it important? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                    Cybersecurity is the practice of protecting digital systems, networks, and data from cyber threats. It's important
+                    because it safeguards sensitive information, prevents cyberattacks, maintains trust and confidence in digital services,
+                    ensures compliance with regulations, preserves national security, and supports digital innovation.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> What are the common types of cyber threats? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                    Common types of cyber threats include malware (such as viruses, ransomware, and spyware), phishing attacks,
+                    denial-of-service (DoS) attacks, man-in-the-middle (MitM) attacks, SQL injection, and insider threats. These threats aim
+                    to compromise data confidentiality, integrity, and availability, and they can lead to financial losses, reputational
+                    damage, and operational disruptions.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> How can individuals and organizations protect themselves from cyberattacks? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Individuals and organizations can protect themselves from cyberattacks by implementing cybersecurity best practices such
+                      as:
+                      <br>
+                      1.Use Strong Passwords and Multi-Factor Authentication         
+                      2.Keep Software Up to Date 
+                      3.Educate Employees
+                      4.Implement Firewalls and Antivirus Software
+                      5.Encrypt Data
+                      6.Backup Data Regularly
+                      7.Implement Access Controls
+                      8.Monitor Network Traffic
+                      9.Establish Incident Response Plans     
+                      10.Stay Informed
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>04</span> User
+                  What is Open Source Intelligence (OSINT), and how is it used in cybersecurity? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Open Source Intelligence (OSINT) refers to the collection and analysis of information from publicly available sources
+                      such as websites, social media platforms, online forums, public records, and government databases. In cybersecurity,
+                      OSINT is used to gather intelligence about potential threats, vulnerabilities, and adversaries. It helps cybersecurity
+                      professionals and organizations assess their digital footprint, identify security risks, and proactively mitigate cyber
+                      threats. OSINT can provide valuable insights into emerging cyber threats, reconnaissance activities, social engineering
+                      tactics, and indicators of compromise (IOCs), enabling organizations to enhance their situational awareness and make
+                      informed decisions to protect their assets and infrastructure.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>05</span>What are the key steps in a cybersecurity incident response plan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      The key steps in a cybersecurity incident response plan include:
+                      <br>
+                      1.Preparation
+                      2.Identification
+                      3.Containment
+                      4.Eradication
+                      5.Recovery
+                      6.Lessons Learned
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>06</span> What are the different career paths in cybersecurity? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                    1.Cybersecurity Analyst: Analyzes security data, monitors for threats, and responds to security incidents.
+                    
+                    2.Security Engineer: Designs, implements, and manages security infrastructure and controls to protect systems and
+                    networks.
+                    
+                    3.Penetration Tester (Ethical Hacker): Identifies vulnerabilities in systems and networks through simulated attacks to
+                    improve security posture.
+                    
+                    4.Incident Responder: Investigates and responds to cybersecurity incidents, conducts forensic analysis, and implements
+                    remediation measures.
+                    
+                    5.Security Consultant: Provides advisory services to organizations on cybersecurity strategy, risk management, and
+                    compliance.
+                    
+                    6.Security Architect: Designs and builds secure systems, applications, and networks, incorporating security best practices
+                    and standards.
+                    
+                    7.Security Auditor: Assesses and evaluates organizations' security controls, policies, and procedures for compliance and
+                    effectiveness.
+                    
+                    8.Threat Intelligence Analyst: Collects, analyzes, and disseminates threat intelligence to identify emerging cyber threats
+                    and inform defense strategies.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>07</span> What are the common
+                    types of cyber threats? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Common types of cyber threats include malware (such as viruses, ransomware, and spyware), phishing attacks,
+                      denial-of-service (DoS) attacks, man-in-the-middle (MitM) attacks, SQL injection, and insider threats. These
+                      threats aim
+                      to compromise data confidentiality, integrity, and availability, and they can lead to financial losses,
+                      reputational
+                      damage, and operational disruptions.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>How cybersecurity is increasing every year</h3>
+            <p class="fst-italic">
+             The range of cybercrimes
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">2000-2010 <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">2010-2020 <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">2020-2030 <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>In our services section, we offer comprehensive cybersecurity training programs tailored to various skill levels,
+          covering topics such as OSINT fundamentals, digital forensics, and incident response techniques. Additionally, we
+          provide hands-on workshops focusing on specific OSINT tools, along with consulting services for organizations dealing
+          with cybersecurity incidents. Our customized training programs cater to the unique needs of clients, while our online
+          learning platforms offer convenient access to self-paced learning resources. We also provide continuing education
+          opportunities, including webinars and networking events, to ensure professionals stay updated with the latest trends.
+          With client testimonials showcasing our success stories, we encourage visitors to reach out for more information or to
+          register for our programs.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Cybersecurity Training Programs:</a></h4>
+              <p>1.Foundational Cybersecurity Training</p>
+              <p>2.OSINT Fundamentals Course</p>
+              <p>3.Digital Forensics Training</p>
+              <p>4.Incident Response Training</p>
+              <p>5.Secure Coding Practice Workshops</p>
+              <p>6.Network Security Training</p>
+              <p>7.Cybersecurity Awareness Training</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">OSINT Tool Workshops:</a></h4>
+              <p>Our OSINT Tool Workshops provide hands-on training in utilizing various Open Source Intelligence (OSINT) tools for
+              cybersecurity professionals and enthusiasts. These workshops offer practical insights into gathering intelligence from
+              publicly available sources, such as social media, websites, and online forums. Participants learn how to effectively use
+              OSINT tools to collect, analyze, and interpret data for investigative purposes. With a focus on real-world scenarios and
+              case studies, our workshops empower participants to enhance their cybersecurity capabilities and stay ahead of emerging
+              threats. Whether you're new to OSINT or looking to deepen your skills, our workshops provide valuable insights and
+              practical experience to help you succeed in cybersecurity investigations.
+</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Incident Response Consulting:</a></h4>
+              <p>Incident response consulting involves providing expert guidance and support to organizations in effectively managing and
+              responding to cybersecurity incidents.
+              Here's a brief overview of how incident response consulting can be conducted:</p>
+              <p class="ri-check-double-line">Assessment and Planning</p>
+              <p class="ri-check-double-line">Preparation and Training</p>
+              <p class="ri-check-double-line">Incident Detection and Response</p>
+              <p class="ri-check-double-line">Forensic Analysis and Investigation</p>
+              <p class="ri-check-double-line">Communication and Coordination</p>
+            </div>
+          </div>
+
+         
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Online Learning Platforms:</a></h4>
+              <p>Here are some examples of popular online learning platforms where you can offer cybersecurity training courses:</p>
+              <p>1.Pluralsight</p>
+              <p>2.Udemy</p>
+              <p>3.LinkedIn Learning</p>
+              <p>4.Cybrary</p>
+              <p>5.SANS Institute</p>
+              <p>6.Offensive Security</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <div>
+              <p>
+                <br><strong>Some informative links</strong>
+              </p>
+              <p><i>
+                  <a href="https://osintframework.com/">OSINT Framework link</a>
+                  <br>
+                  A comprehensive collection of OSINT tools and resources categorized for easy navigation, including tools for
+                  digital forensics investigations.
+                </i>
+              </p>
+              <p><i>
+                  <a href="https://www.sans.org/">The SANS Institute</a>
+                  <br>
+                  Offers a variety of digital forensics training courses, webinars, and resources covering OSINT and other
+                  related topics.
+                </i>
+              </p>
+            </div>
+            <div>
+              <p>
+                <br><strong>Guidebooks</strong>
+                <br>
+                <b>
+                  1.Open Source Intelligence techniques:
+                </b>
+                Resources for Searching and Analyzing Online Information" by Michael Bazzell - This comprehensive guidebook
+                covers a wide range of OSINT techniques, tools, and methodologies for gathering and analyzing online
+                information.
+                <br>
+                <b> 2.Practical Digital Forensics by Richard Boddington: </b>
+                A practical guide to digital forensics techniques, tools, and methodologies, including chapters on OSINT and its
+                role in investigations.
+                <br>
+                <b>3.Hiding Behind the Keyboard: </b>
+                Uncovering Covert Communication Methods with Forensic Analysis" by Brett Shavers - This book explores various
+                covert communication methods used by criminals and how digital forensic analysts can uncover them, including
+                OSINT techniques.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="#">Call To Action</a>
+                  </div> -->
+        </div>
+        
+        </div>
+        </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Link And Tools</h2>
+          <p>OSINT tools are essential for cybersecurity and investigative purposes</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">System Tools</li>
+          <li data-filter=".filter-card">Password</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div> -->
+    <!-- </section> -->
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team Member</h2>
+          <p>These are our team members</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Sru.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Srushti Anil Kulkarni</h4>
+                <span>Student</span>
+                <p>Writer and full stack web developer</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/ayush.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ayush K Tiwari</h4>
+                <span>Student</span>
+                <p>Data analyst</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Sushmita.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sushmita Rammilan Yadav</h4>
+                <span>Student</span>
+                <p>Mern stack web developer</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/omkar.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Omkar Gorde</h4>
+                <span>Student</span>
+                <p>Cyber analyst</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>We are offering free plan and subscription plan as per the need of the users.
+            <br>
+            You can buy the Subscription as per your need and requirement.
+          </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Name of the tools</li>
+                <li><i class="bx bx-check"></i> Link of the tools</li>
+                <li><i class="bx bx-check"></i><span>Category of the attacks</span> </li>
+                <li class="na"><i class="bx bx-x"></i> <span>Subcategory of the attacks</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Thumnail</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Reference Video</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>The provided link is working or not</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Business Plan</h3>
+              <h4><sup>$</sup>29<span>per month</span></h4>
+              <ul>
+                  <li><i class="bx bx-check"></i> Name of the tools</li>
+                  <li><i class="bx bx-check"></i> Link of the tools</li>
+                  <li><i class="bx bx-check"></i> Category of the attacks</li>
+                  <li class="na"><i class="bx bx-x"></i> <span>Subcategory of the attacks</span></li>
+                  <li><i class="bx bx-check"></i> <span>Thumnail</span></li>
+                  <li class="na"><i class="bx bx-x"></i> <span>Reference Video</span></li>
+                  <li><i class="bx bx-check"></i> <span>The provided link is working or not</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Developer Plan</h3>
+              <h4><sup>$</sup>49<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Name of the tools</li>
+                <li><i class="bx bx-check"></i> Link of the tools</li>
+                <li><i class="bx bx-check"></i> Category of the attacks</li>
+                <li><i class="bx bx-check"></i> <span>Subcategory of the attacks</span></li>
+                <li><i class="bx bx-check"></i> Thumnail</li>
+                <li><i class="bx bx-check"></i> <span>Reference Video</span></li>
+                <li><i class="bx bx-check"></i> The provided link is working or not</li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div> -->
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+          <h2>Contact Us</h2>
+          <p>For any query, you can contact us for further information</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Nerul, Navi Mumbai</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+ 4783578457</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>AI CHATBOT</h4>
+            <p>Write your query </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!-- <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Arsha</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div> -->
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cybersecurity Training Programs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Consulting Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Penetration Testing and Vulnerability Assessments</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chat based doubt solving</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">OSINT Tools</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>OSINT IN DIGITAL FORENSICS</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
